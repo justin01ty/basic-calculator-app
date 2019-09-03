@@ -14,7 +14,16 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+    
+    @IBOutlet weak var inputBox1: UITextField!
+    @IBOutlet weak var inputBox2: UITextField!
+    @IBOutlet weak var results: UILabel!
+    
+    @IBAction func addPressed(_ sender: Any) {
+        
+    }
+    
+    @IBAction func minusPressed(_ sender: Any) {
+    }
 }
 

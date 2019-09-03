@@ -20,7 +20,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var results: UILabel!
     
     @IBAction func addPressed(_ sender: Any) {
-        
+        results = inputBox1 + inputBox2
+        // I would get this same error no matter what I attempt with this line.
     }
     
     @IBAction func minusPressed(_ sender: Any) {
